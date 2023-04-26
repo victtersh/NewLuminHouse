@@ -1,0 +1,13 @@
+{"BalanceTable":null,
+	"Battery":10000,
+	"PowerConsumption":{
+		"AirCond":3500.0,
+		"Boiler":4500.0,
+		"Dryer":5000.0,
+		"Ev":9600.0,
+		"Fridge":225.0,
+		"Lights":150.0,
+		"Oven":2300.0,
+		"TV":100.0,
+		"Washer":800.0},
+	"PowerMomentLimit":6800}

@@ -1,0 +1,289 @@
+.unity-toggle {
+    background-color: rgb(159, 159, 159);
+    background-image: none;
+    border-radius: 12px;
+    width: 38px;
+    height: 20px;
+}
+
+.unity-toggle:checked {
+    background-color: rgb(112, 180, 132);
+}
+
+.unity-toggle__input {
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.unity-toggle__input:checked {
+    left: 19px;
+}
+
+.unity-toggle__checkmark {
+    background-image: none;
+}
+
+.text-1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(244, 181, 74);
+}
+
+.text-2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: rgb(23, 47, 83);
+}
+
+.text-3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(23, 47, 83);
+}
+
+.text-4 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: rgb(23, 47, 83);
+}
+
+.luminIcon {
+    position: absolute;
+    height: 37px;
+    width: 38px;
+    left: 30px;
+    top: 0;
+    border-radius: 0;
+    background-image: url('project://database/Assets/Resources/Images/Header.png?fileID=2800000&guid=5d325eb38871415438cc858bc1add411&type=3#Header');
+}
+
+.settings {
+    position: absolute;
+    width: 375px;
+    height: 50px;
+    left: 0;
+    top: 208px;
+    background-image: url('project://database/Assets/Resources/Images/Settings%20Bar.png?fileID=2800000&guid=990252b437de164448ae49114d8ddf10&type=3#Settings Bar');
+}
+
+.applience {
+     margin-left: 0; 
+	 margin-right: 0; 
+	 margin-top: 3px;
+	 margin-bottom: 0; 
+	 background-image: none; 
+	 border-left-width: 1px; 
+	 border-right-width: 1px; 
+	 border-top-width: 1px; 
+	 border-bottom-width: 1px; 
+	 border-left-color: rgb(224, 224, 224); 
+	 border-right-color: rgb(224, 224, 224); 
+	 border-top-color: rgb(224, 224, 224); 
+	 border-bottom-color: rgb(224, 224, 224);
+	 border-radius: 4px;
+	 width: 335px;
+	 height: 55px;
+}
+
+.unity-label {
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.unity-progress-bar__container {
+	background-color: #1967D2;
+	border-radius: 5px;
+	
+}
+
+.unity-progress-bar__progress {
+	background-color: #1967D2;
+	border-radius: 5px;
+	
+}
+.unity-progress-bar__background{
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.unity-slider #unity-dragger {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #336699;
+}
+
+.unity-slider .unity-label {
+    color: #336699;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF; 
+    -unity-font-style: bold;
+    -unity-text-outline-color: rgb(255, 255, 255)
+}
+
+.unity-radio-button__checkmark-background {
+	background-image: none;
+	background-color: #1967D2;
+	margin-right: 5px;
+}
+
+
+
+.unity-radio-button #unity-checkmark{
+	background-image: none;
+	background-color: #FFFFFF;
+	width: 7px;
+	height: 7px;
+	margin-top: 2px;
+}
+
+.unity-radio-button__label {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 18px;
+	color: #80868B;
+}
+
+#gamemode_label .unity-label {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 18px;
+	color: #80868B;
+}
+
+.vector {
+	background-image: url('project://database/Assets/Resources/Images/Vector.png');
+}
+
+.battery  {
+	background-image: url('project://database/Assets/Resources/Images/battery.png');
+}
+
+.dr
+
+.text-battery {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 47px;
+	color: #6FB384;
+}
+
+.text-5 {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	text-align: right;
+
+	color: #8E8E93;
+}
+
+.text-6 {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: right;
+	
+	color: #F4B54A;
+}
+
+.text-7 {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 18px;
+
+	color: #FFFFFF;
+}
+
+.offgrid-item-on {
+	background-color: #2E323C;
+}
+
+
+.offgrid-item-off {
+	background-color: #2E323C;
+	border-width: 1px;
+}
+
+.offgrid-item-off .text-7{
+	color:   #C4C4C4;
+}
+
+.offgrid-item-off .text-6{
+	color: #C4C4C4;
+}
+
+.offgrid-item-off .text-5{
+
+	color: #C4C4C4;
+}
+
+.optional-button {
+ -unity-text-align: middle-center;
+ border-width: 0;
+ color: rgb(51, 102, 153);
+ border-color: rgba(255, 255, 255, 0);
+ background-color: rgba(25, 103, 210, 0); 
+}
+
+
+.optional-button:hover {
+	color: rgb(151, 102, 153);
+}
+
+
+.text-31 {
+    color: rgb(23, 47, 83);
+	background-color: #FFFFFF;
+	border-width: 0px;
+	-unity-text-align: upper-left
+}
+
+.text-31:hover {
+	color: rgb(151, 102, 153);
+	background-color: #FFFFFF;
+}
+
+.set-threshold {
+	color: rgb(101, 101, 101);
+}
+
+.set-threshold:hover  {
+	color: rgb(151, 102, 153);
+}
